@@ -7,6 +7,7 @@
  */
 /* Document
    ========================================================================== */
+@import url("https://fonts.googleapis.com/css?family=Work+Sans");
 html {
   font-family: sans-serif;
   /* 1 */
@@ -401,3 +402,28 @@ template {
  */
 [hidden] {
   display: none; }
+
+.home-wrap header {
+  width: 300px;
+  background: white;
+  padding: 15px 0 0 15px; }
+  .home-wrap header .logo {
+    overflow: hidden;
+    text-indent: 101%;
+    white-space: nowrap;
+    background-image: url(/assets/img/bannerHS.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    height: 170px; }
+
+.text {
+  font-size: 15px;
+  font-family: 'Work Sans', sans-serif;
+  line-height: 1.5; }
+
+.signatures {
+  background-image: url(/assets/img/signatures.gif);
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 50px; }
