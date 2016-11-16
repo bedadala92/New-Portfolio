@@ -406,7 +406,22 @@ template {
 .home-wrap header {
   width: 300px;
   background: white;
-  padding: 15px 0 0 15px; }
+  padding: 15px 0 0 15px;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  font-family: 'Work Sans', sans-serif; }
+  .home-wrap header .header-position {
+    position: fixed;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column; }
+  .home-wrap header a {
+    text-decoration: none; }
+  .home-wrap header ul {
+    list-style: none;
+    padding-left: 0px;
+    line-height: 1.5; }
   .home-wrap header .logo {
     overflow: hidden;
     text-indent: 101%;
@@ -419,7 +434,6 @@ template {
 
 .text {
   font-size: 15px;
-  font-family: 'Work Sans', sans-serif;
   line-height: 1.5; }
 
 .signatures {
@@ -427,3 +441,32 @@ template {
   background-repeat: no-repeat;
   background-position: left;
   height: 50px; }
+
+.home-wrap {
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh; }
+
+.home-sections .flex {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: rows;
+      flex-direction: rows;
+  -ms-flex-pack: center;
+      justify-content: center; }
+
+.col-1 {
+  max-width: 300px;
+  height: 200px;
+  margin: 15px 50px;
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+  background-image: url(/assets/img/hp_gallery_tn/hp_tn_01_kayla.png);
+  background-repeat: no-repeat; }
+
+@media (max-width: 640px) {
+  .home-sections .flex {
+    display: block; }
+  .col-1 {
+    max-width: 100%; } }

@@ -1,0 +1,31 @@
+.home-wrap
+  display: flex
+  min-height: 100vh
+
+.home-sections
+  // flex:1
+
+  .flex
+    display: flex
+    flex-direction: rows
+    justify-content: center
+
+
+//columns
+.col-1
+  max-width: 300px
+  height: 200px
+  margin: 15px 50px
+  +hide-text
+  background:
+    image: url(/assets/img/hp_gallery_tn/hp_tn_01_kayla.png)
+    repeat: no-repeat
+
+
+
+@media (max-width: 640px)
+  .home-sections .flex
+    display: block
+
+  .col-1
+    max-width: 100%
