@@ -1,23 +1,55 @@
 .home-wrap header
-   width: 300px
-   background: white
-   padding: 15px 0 0 15px
+   width: 100%
 
-   .logo
-       +hide-text
-       background:
-         image: url(/assets/img/bannerHS.png)
-         repeat: no-repeat
-         position: top
-         size: contain
-       height: 170px
+   background: white
+
+   .header-position
+     position: fixed
+     display: flex
+     flex-direction: column
+   justify-content: space-between
+
+.logo
+    +hide-text
+    background:
+      image: url(/assets/img/bannerHS.png)
+      repeat: no-repeat
+      position: left
+      size: contain
+    height: 170px
+    margin-left: 5%
+    margin-top: 5%
+      // height: 100%
+      // margin-top: 15px
+
+    // width: 300px
+
+
 .text
-   font-size: 15px
-   font-family: 'Work Sans', sans-serif
-   line-height: 1.5
-.signatures
-  background:
-    image: url(/assets/img/signatures.gif)
-    repeat: no-repeat
-    position: left
-  height: 50px
+  font-size: 15px
+  line-height: 1.5
+  margin-left: 5%
+
+ul
+  list-style: none
+  padding-left: 5%
+
+a
+  text-decoration: none
+  line-height: 1.5
+
+@media(max-width: 775px)
+  .home-wrap header
+    width: auto
+    padding: 15px 0px 0px 0px
+
+    .header-position
+      position: relative
+      top: auto
+      bottom: auto
+      left: auto
+      flex-direction: row
+      align-items: center
+  .text
+    padding-top: 15px
+    padding-left: 15px
