@@ -1,6 +1,10 @@
 .home-wrap
   display: flex
   min-height: 100vh
+  font-family: 'Work Sans', sans-serif
+
+  @media (max-width: 775px)
+    display: block
 
 .home-sections
   // flex:1
@@ -9,18 +13,16 @@
     display: flex
     flex-direction: rows
     justify-content: center
+    flex-wrap: wrap
 
 
 //columns
 .col-1
   max-width: 300px
   height: 200px
-  margin: 15px 50px
-  +hide-text
-  background:
-    image: url(/assets/img/hp_gallery_tn/hp_tn_01_kayla.png)
-    repeat: no-repeat
-
+  margin: 15px
+  repeat: no-repeat
+//
 
 
 @media (max-width: 640px)
