@@ -515,3 +515,6 @@ a {
     display: block; }
   .col-1 {
     max-width: 100%; } }
+
+.col-1:hover #hover {
+  display: block; }
