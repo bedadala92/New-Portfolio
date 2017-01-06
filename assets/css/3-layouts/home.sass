@@ -24,6 +24,7 @@
   margin: 15px
   repeat: no-repeat
   position: center
+  position: relative
 
 
 
@@ -41,7 +42,95 @@
 
 
   img
-    // padding-left: 8%
+    padding-left: 8%
 
-.col-1:hover #hover
-  display: block
+.animate
+  // width: 10em
+  font-weight: bold
+  width: 10ch
+  border-right: .05em solid
+  overflow: hidden
+  animation: typing 4s steps(11, end) infinite
+
+@keyframes typing
+  from
+    width: 0
+
+.btext
+  position: relative
+  padding-left: 10%
+  padding-top: 10%
+
+.bimage
+  position: absolute
+  width: 100%; /* for IE 6 */
+
+
+.language
+  &:after
+    color: white
+    content: "Indian"
+    display: block
+    animation: linguo 8s linear infinite alternate
+h1
+  margin: 0 auto
+  color: white
+
+
+@keyframes linguo
+  12.5%
+    content: "भारतीय"
+    color: white
+  25%
+    content: "இந்தியன்"
+    color: white
+  37.5%
+    content: "భారత"
+    color: white
+  50%
+    content: "ভারতীয়"
+    color: white
+  62.5%
+    content: "بھارتی"
+    color: white
+  75%
+    content: "ಭಾರತೀಯ"
+    color: white
+  87.5%
+    content: "ભારતીય"
+    color: white
+  100%
+    content: "ഇന്ത്യൻ"
+    color: white
+
+#toggle
+  position: absolute
+  bottom: 0px
+  width: 100%
+  height: 50%
+  background-color: black
+  opacity: 0
+
+
+
+
+// .grey-on-hover {
+//   position: relative
+//   cursor: pointer
+//
+//   &:before {
+//     position: absolute
+//     top: 0
+//     left: 0
+//     width: 100%
+//     height: 100%
+//     background-color: rgba(0, 0, 0, .3)
+//     transition: opacity .3s
+//     opacity: 0
+//     z-index: 2
+//   }
+//
+//   &:hover:before {
+//     opacity: 1
+//   }
+// }
