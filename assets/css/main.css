@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -508,10 +509,127 @@ a {
   height: 170px;
   margin: 15px;
   repeat: no-repeat;
-  position: center; }
+  position: center;
+  position: relative; }
 
 @media (max-width: 640px) {
   .home-sections .flex {
     display: block; }
   .col-1 {
-    max-width: 100%; } }
+    max-width: 100%; }
+  img {
+    padding-left: 8%; } }
+
+.animate {
+  font-weight: bold;
+  width: 10ch;
+  border-right: .05em solid;
+  overflow: hidden;
+  -webkit-animation: typing 4s steps(11, end) infinite;
+          animation: typing 4s steps(11, end) infinite; }
+
+@-webkit-keyframes typing {
+  from {
+    width: 0; } }
+
+@keyframes typing {
+  from {
+    width: 0; } }
+
+.btext {
+  position: relative;
+  padding-left: 10%;
+  padding-top: 10%; }
+
+.bimage {
+  position: absolute;
+  width: 100%;
+  /* for IE 6 */ }
+
+.language:after {
+  color: white;
+  content: "Indian";
+  display: block;
+  -webkit-animation: linguo 8s linear infinite alternate;
+          animation: linguo 8s linear infinite alternate; }
+
+h1 {
+  margin: 0 auto;
+  color: white; }
+
+@-webkit-keyframes linguo {
+  12.5% {
+    content: "भारतीय";
+    color: white; }
+  25% {
+    content: "இந்தியன்";
+    color: white; }
+  37.5% {
+    content: "భారత";
+    color: white; }
+  50% {
+    content: "ভারতীয়";
+    color: white; }
+  62.5% {
+    content: "بھارتی";
+    color: white; }
+  75% {
+    content: "ಭಾರತೀಯ";
+    color: white; }
+  87.5% {
+    content: "ભારતીય";
+    color: white; }
+  100% {
+    content: "ഇന്ത്യൻ";
+    color: white; } }
+
+@keyframes linguo {
+  12.5% {
+    content: "भारतीय";
+    color: white; }
+  25% {
+    content: "இந்தியன்";
+    color: white; }
+  37.5% {
+    content: "భారత";
+    color: white; }
+  50% {
+    content: "ভারতীয়";
+    color: white; }
+  62.5% {
+    content: "بھارتی";
+    color: white; }
+  75% {
+    content: "ಭಾರತೀಯ";
+    color: white; }
+  87.5% {
+    content: "ભારતીય";
+    color: white; }
+  100% {
+    content: "ഇന്ത്യൻ";
+    color: white; } }
+
+#toggle {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 50%;
+  background-color: black;
+  opacity: 0;
+  -webkit-transition: opacity .3s ease;
+  -moz-transition: opacity .3s ease; }
+
+.col-1:hover #toggle {
+  opacity: 0.5; }
+
+#cell {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  font-weight: bold;
+  display: none;
+  font-size: 20px;
+  color: white; }
+
+.col-1:hover #cell {
+  display: block; }
