@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+$(document).ready(function(){
+  $(".hover").hover(function(){
+    console.log('its coming here');
+    $("#toggle").toggle();
+  });
+});
+=======
+>>>>>>> master
 // $(document).ready(function(){
 //
 //   $("#toggle").hide();
@@ -25,3 +36,7 @@
 //     console.log('its coming here');
 //   });
 // });
+<<<<<<< HEAD
+=======
+>>>>>>> homePage
+>>>>>>> master
