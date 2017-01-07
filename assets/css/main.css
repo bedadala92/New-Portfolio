@@ -616,6 +616,9 @@ h1 {
   height: 50%;
   background-color: black;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> homePage
   opacity: 0;
   -webkit-transition: opacity .3s ease;
   -moz-transition: opacity .3s ease; }
@@ -634,6 +637,9 @@ h1 {
 
 .col-1:hover #cell {
   display: block; }
+<<<<<<< HEAD
 =======
   opacity: 0; }
+>>>>>>> homePage
+=======
 >>>>>>> homePage
