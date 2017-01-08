@@ -516,7 +516,9 @@ a {
   .home-sections .flex {
     display: block; }
   .col-1 {
-    max-width: 100%; }
+    max-width: 100%;
+    -ms-flex-align: center;
+        align-items: center; }
   img {
     padding-left: 8%; } }
 
