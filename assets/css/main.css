@@ -510,7 +510,8 @@ a {
   -ms-flex-pack: left;
       justify-content: left;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
+      flex-wrap: wrap;
+  margin-left: 15%; }
 
 .col-1 {
   width: 300px;
@@ -643,3 +644,7 @@ h1 {
 
 .col-1:hover #cell {
   display: block; }
+
+@media (max-width: 375px) {
+  .flex {
+    margin-left: 0%; } }
