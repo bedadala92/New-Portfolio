@@ -531,6 +531,8 @@ a {
         align-items: center; }
   #my_screen {
     margin-left: 8%; }
+  #toggle {
+    margin-left: 8%; }
   img {
     padding-left: 8%; } }
 
@@ -652,6 +654,8 @@ h1 {
   .home-sections .flex {
     margin-left: 0%; }
   #my_screen {
+    margin-left: 8%; }
+  #toggle {
     margin-left: 8%; } }
 
 @media (max-width: 415px) {
