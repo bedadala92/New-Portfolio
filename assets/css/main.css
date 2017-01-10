@@ -493,6 +493,10 @@ a {
     padding-right: 15px;
     padding-left: 18px; } }
 
+body {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 12px; }
+
 .home-wrap {
   display: -ms-flexbox;
   display: flex;
