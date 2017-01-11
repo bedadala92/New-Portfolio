@@ -667,3 +667,26 @@ h1 {
     margin-left: 0%; }
   #my_screen {
     margin-left: 8%; } }
+
+.tile {
+  height: 380px;
+  width: auto;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center; }
+
+img {
+  max-width: 660px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: right;
+      justify-content: right;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.logopic {
+  repeat: no-repeat;
+  position: relative; }
