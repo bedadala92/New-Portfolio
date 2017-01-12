@@ -668,25 +668,30 @@ h1 {
   #my_screen {
     margin-left: 8%; } }
 
-.tile {
-  height: 380px;
-  width: auto;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-      justify-content: center; }
-
-img {
-  max-width: 660px;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
+.imgpic {
   -ms-flex-pack: right;
       justify-content: right;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
-
-.logopic {
-  repeat: no-repeat;
   position: relative; }
+
+.imgpic img {
+  max-width: 660px;
+  height: auto;
+  float: right;
+  margin-top: 15px; }
+
+.logotext {
+  margin-top: 15px;
+  text-align: right;
+  font-size: 15px;
+  line-height: 1.5em;
+  display: inline-block; }
+
+.heading {
+  width: 300px;
+  height: auto;
+  repeat: no-repeat;
+  position: left;
+  margin: 15px; }
+
+p {
+  font-size: 22px; }
