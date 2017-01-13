@@ -746,16 +746,22 @@ p {
   padding-right: 10%; }
 
 #byjus01 {
-  background-image: url("/assets/img/hp_gallery_tn/byjus_01.png");
   background-repeat: no-repeat;
-  height: 500px;
   background-size: cover;
   position: center; }
 
+#byjus01 img {
+  width: 100%;
+  height: 100%;
+  padding-left: 0%; }
+
+#byjus02 img {
+  width: 100%;
+  height: 100%;
+  padding-left: 0%; }
+
 #byjus02 {
-  background-image: url("/assets/img/hp_gallery_tn/byjus_02.png");
   background-repeat: no-repeat;
-  height: 500px;
   background-size: cover;
   position: center; }
 
