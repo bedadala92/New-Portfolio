@@ -718,3 +718,54 @@ p {
   float: right;
   margin-top: 15px;
   margin-left: 15%; }
+
+.check {
+  background-image: url("/assets/img/hp_gallery_tn/check-06.svg");
+  background-repeat: no-repeat;
+  background-size: 18px 18px;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 5px; }
+
+.plus {
+  background-image: url("/assets/img/hp_gallery_tn/plus-06.svg");
+  background-repeat: no-repeat;
+  background-size: 18px 18px;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 5px; }
+
+.intro {
+  margin-top: 80px;
+  font-size: 18px;
+  line-height: 2em;
+  padding-right: 10%; }
+
+#byjus01 {
+  background-image: url("/assets/img/hp_gallery_tn/byjus_01.png");
+  background-repeat: no-repeat;
+  height: 500px;
+  background-size: cover;
+  position: center; }
+
+#byjus02 {
+  background-image: url("/assets/img/hp_gallery_tn/byjus_02.png");
+  background-repeat: no-repeat;
+  height: 500px;
+  background-size: cover;
+  position: center; }
+
+p a {
+  text-decoration: underline;
+  -moz-text-decoration-color: #a5cd39;
+       text-decoration-color: #a5cd39;
+  -webkit-text-decoration-color: #a5cd39;
+  -moz-text-decoration-color: #a5cd39;
+       text-decoration-color: #a5cd39; }
+
+p {
+  font-size: 18px; }
