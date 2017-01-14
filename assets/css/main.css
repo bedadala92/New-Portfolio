@@ -796,6 +796,8 @@ p a {
     padding-left: 15px; }
   .subnav {
     width: 100%; }
+  li {
+    padding-right: 15px; }
   ul {
     margin: 0 auto;
     width: -webkit-fit-content;
@@ -816,20 +818,22 @@ p a {
     margin-top: 15px; }
   .heading #categeory {
     margin-bottom: 15px; }
+  li {
+    padding-right: 15px; }
   .intro p, a {
     font-size: 13px;
     padding: 0px; }
-    .intro p span, a span {
-      font-size: 13px;
-      line-height: 2em; }
-    .intro p .subnav, a .subnav {
-      width: 100%; }
-    .intro p ul, a ul {
-      margin: 0 auto;
-      width: -webkit-fit-content;
-      width: -moz-fit-content;
-      width: fit-content; }
-    .intro p p, a p {
-      font-size: 13px; }
-    .intro p p a, a p a {
-      font-size: 13px; } }
+  span {
+    font-size: 13px;
+    line-height: 2em; }
+  .subnav {
+    width: 100%; }
+  ul {
+    margin: 0 auto;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content; }
+  p {
+    font-size: 13px; }
+  p a {
+    font-size: 13px; } }
