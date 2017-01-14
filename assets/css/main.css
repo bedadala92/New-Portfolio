@@ -789,6 +789,8 @@ p a {
     margin-top: 15px; }
   .heading #categeory {
     margin-bottom: 15px; }
+  .intro {
+    padding-left: 15px; }
   .subnav {
     width: 100%; }
   ul {
@@ -805,6 +807,18 @@ p a {
     margin-top: 15px; }
   .heading #categeory {
     margin-bottom: 15px; }
+  a {
+    padding: 0;
+    font-size: 13px;
+    line-height: 1.5em; }
+  p {
+    font-size: 13px;
+    line-height: 1.5em; }
+  p a {
+    font-size: 13px;
+    line-height: 1.5em; }
+  .intro {
+    font-size: 13px; }
   .subnav {
     width: 100%; }
   ul {
