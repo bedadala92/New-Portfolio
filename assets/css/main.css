@@ -678,8 +678,8 @@ h1 {
   position: relative; }
 
 .imgpic img {
-  max-width: 660px;
-  height: auto;
+  width: 100%;
+  height: 100%;
   float: right;
   margin-top: 15px; }
 
