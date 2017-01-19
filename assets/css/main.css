@@ -556,9 +556,9 @@ body {
     -ms-flex-align: center;
         align-items: center; }
   #my_screen {
-    margin-left: 8%; }
+    margin-left: 0%; }
   #toggle {
-    margin-left: 8%; }
+    margin-left: 0%; }
   img {
     padding-left: 8%; } }
 
@@ -682,17 +682,11 @@ h1 {
     -ms-flex-align: center;
         align-items: center;
     -ms-flex-pack: center;
-        justify-content: center; }
-  #my_screen {
-    margin-left: 8%; }
-  #toggle {
-    margin-left: 8%; } }
+        justify-content: center; } }
 
 @media (max-width: 415px) {
   .home-sections .flex {
-    margin-left: 0%; }
-  #my_screen {
-    margin-left: 8%; } }
+    margin-left: 0%; } }
 
 #gators {
   width: 300px;
