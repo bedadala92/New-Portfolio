@@ -411,7 +411,8 @@ template {
         justify-content: space-between;
       justify-content-position: fixed;
       justify-content-display: flex;
-      justify-content-flex-direction: column; }
+      justify-content-flex-direction: column;
+      justify-content-align-items: center; }
 
 .logo {
   width: 100%;
@@ -458,7 +459,9 @@ a {
     -ms-flex-direction: row;
         flex-direction: row;
     -ms-flex-align: center;
-        align-items: center; }
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center; }
   .text {
     padding-top: 15px;
     padding-right: 15px; }
@@ -493,7 +496,9 @@ a {
     -ms-flex-direction: row;
         flex-direction: row;
     -ms-flex-align: center;
-        align-items: center; }
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center; }
   .text {
     padding-top: 15px;
     padding-left: 18px; }
@@ -541,7 +546,11 @@ body {
 @media (max-width: 640px) {
   .home-sections .flex {
     display: -ms-flexbox;
-    display: flex; }
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center; }
   .col-1 {
     max-width: 100%;
     -ms-flex-align: center;
@@ -669,7 +678,11 @@ h1 {
 
 @media (max-width: 375px) {
   .home-sections .flex {
-    margin-left: 0%; }
+    margin-left: 0%;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center; }
   #my_screen {
     margin-left: 8%; }
   #toggle {
