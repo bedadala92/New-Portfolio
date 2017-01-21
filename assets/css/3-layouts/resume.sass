@@ -1,9 +1,10 @@
-.intro a
+.intro .box
   font-size: 18px
   color: #007FE1
   border: 1px solid #007FE1
   overflow: visible
   text-align: Center
+  padding: 5px
 
 .type
   font-size: 18px
@@ -27,8 +28,13 @@
   .intro
     text-align: center
     padding-left: 0px
-    margin: auto
+    margin: 0 auto
     line-height: 0.5em
+    display: inline-block
+
+  .intro .box
+    font-size: 13px
+
   .intro a
     font-size: 13px
     display: inline-block
@@ -44,11 +50,12 @@
     font-size: 13px
 
 @media(max-width: 375px)
+
   .intro
     text-align: center
     padding-left: 0px
-    margin: auto
-
+    margin: 0 auto
+    display: block
   .intro a
     font-size: 13px
     display: inline-block
