@@ -2,12 +2,12 @@
 layout: default
 title: Sandeep Bedadala's Blog
 ---
-<h1>{{ page.title }}</h1>
+<!-- <h1>{{ page.title }}</h1> -->
 <div class="home-wrap"><div class="header-position"><div class="heading"><div id="brand">Blog</div></div><div class="subnav"><ul><li><a href="{{site.baseurl}}/">Home</a></li><li><a href="{{site.baseurl}}/resume/">Resume</a></li></ul></div></div>
 <ul class="posts">
 
   {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+    <li><span>{{ post.date | date_to_string }}</span> » <a style="color:#007FE1;font-weight: 600;" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
   {% endfor %}
 
 </ul>
