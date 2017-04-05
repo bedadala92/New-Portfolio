@@ -7,7 +7,8 @@ date: 2017-04-03
 I wanted my first blog post to be about Art or Programming or Coffee or something like that.
 But it is such that, my first blog is about Law and Medicine and Immigration. Three issues that I'm utterly not qualified to talk about.
 
-![Life South Van](/assets/img/hp_gallery_tn/bloodvan.JPG)
+<!-- [Life South Van](/assets/img/hp_gallery_tn/bloodvan.JPG) -->
+<img src="/assets/img/hp_gallery_tn/bloodvan.JPG"/>
 
 Wednesday April 5 2017. After 1.5 plates of Krishna Lunch, as the thought of leaving UF soon kicked in some nostalgia, I spotted a Life South Blood Donation Van on campus. Fiercely motivated by the idea of 'Giving back' I walked into the van to donate my blood.
 It was 1PM.
