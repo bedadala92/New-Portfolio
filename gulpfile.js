@@ -22,7 +22,6 @@ var messages = {
 };
 
 
-
 /**
  * Build the Jekyll Site
  */
