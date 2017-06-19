@@ -690,7 +690,33 @@ h1 {
 
 #gators {
   width: 300px;
-  height: auto; }
+  height: auto;
+  /* animating pin in home page logo */ }
+
+#pin {
+  -webkit-transform-origin: bottom center;
+          transform-origin: bottom center;
+  animation: pinmove 2s infinite;
+  -webkit-animation: pinmove 2s infinite; }
+
+@keyframes pinmove {
+  0% {
+    -webkit-transform: rotate(-30deg);
+            transform: rotate(-30deg); }
+  50% {
+    -webkit-transform: rotate(30deg);
+            transform: rotate(30deg); }
+  100% {
+    -webkit-transform: rotate(-30deg);
+            transform: rotate(-30deg); } }
+
+@-webkit-keyframes pinmove {
+  from {
+    -webkit-transform: rotate(33deg);
+            transform: rotate(33deg); }
+  to {
+    -webkit-transform: rotate(-33deg);
+            transform: rotate(-33deg); } }
 
 .imgpic {
   -ms-flex-pack: right;

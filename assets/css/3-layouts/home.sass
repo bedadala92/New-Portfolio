@@ -159,3 +159,23 @@ h1
 #gators
   width: 300px
   height: auto
+
+  /* animating pin in home page logo */
+#pin
+  transform-origin: bottom center
+  animation : pinmove 2s infinite
+  -webkit-animation: pinmove 2s infinite
+
+@keyframes pinmove
+  0%
+    transform: rotate(-30deg)
+  50%
+    transform: rotate(30deg)
+  100%
+    transform: rotate(-30deg)
+
+@-webkit-keyframes pinmove
+  from
+    transform: rotate(33deg)
+  to
+    transform: rotate(-33deg)
