@@ -883,6 +883,9 @@ p a {
 p {
   font-size: 18px; }
 
+.date p {
+  font-size: 15px; }
+
 #brand {
   font-size: 30px; }
 
