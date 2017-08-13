@@ -432,7 +432,8 @@ template {
 ul {
   list-style: none;
   padding-left: 5%;
-  padding-top: 5%; }
+  padding-top: 55px;
+  padding-bottom: 5%; }
 
 a {
   text-decoration: none;
@@ -441,6 +442,19 @@ a {
   font-size: 12px; }
 
 @media (max-width: 375px) {
+  .social {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: black;
+    height: 50px;
+    z-index: 2; }
+  .social img {
+    padding-top: 4%;
+    -webkit-filter: invert(100%); }
+  .social a {
+    margin-right: 2em; }
   .home-wrap header {
     width: auto;
     padding: 0px 0px 0px 0px; }
@@ -474,6 +488,19 @@ a {
     padding-right: 15px; } }
 
 @media (max-width: 415px) {
+  .social {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: black;
+    height: 50px;
+    z-index: 2; }
+  .social img {
+    padding-top: 4%;
+    -webkit-filter: invert(100%); }
+  .social a {
+    margin-right: 2em; }
   .home-wrap header {
     width: auto;
     padding: 15px 0px 0px 0px; }
