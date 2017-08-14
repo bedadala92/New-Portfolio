@@ -7,33 +7,33 @@
       ul
         li: a(href="{{site.baseurl}}/") Home
         li: a(href="{{site.baseurl}}/resume/") Resume
-        .sectionscat.
-          Project details
-        p(style="text-transform: uppercase; font-size:12px").
-          Title
-        h3(style="color:#09d; font-weight:500; margin-top:0px; margin-bottom:0px; font-size:15px").
-          Drapermeter
-        .sectionav.
-        p(style="text-transform: uppercase; font-size:12px").
-          Category
-        h3(style="color:#09d; font-weight:500; margin-top:0px; margin-bottom:0px; font-size:15px;line-height:1.5em").
-          Illustration<br>
-          Web Development<br>
-          Research
-        .sectionav.
-        p(style="text-transform: uppercase; font-size:12px").
-          tools
-        h3(style="color:#09d; font-weight:500; margin-top:0px; margin-bottom:0px; font-size:15px; line-height:1.5em").
-          Adobe Illustrator<br>
-          Adobe Photoshop<br>
-          HTML + CSS<br>
-          Angular JS<br>
-          Node.js<br>
-          MongoDB
-        .sectionav.
+      .sectionscat.
+        Project details
+      p.
+        Title
+      h3.
+        Drapermeter
+      .sectionav.
+      p.
+        Category
+      h3.
+        Illustration<br>
+        Web Development<br>
+        Research
+      .sectionav.
+      p.
+        tools
+      h3(style="margin-bottom:3%").
+        Adobe Illustrator<br>
+        Adobe Photoshop<br>
+        HTML + CSS<br>
+        Angular JS<br>
+        Node.js<br>
+        MongoDB
   section.about
+    .app
+      <a href="https://drapermeter.herokuapp.com/">View the app here</a>
     .intro
-      <a style="font-size:15px; text-align: center; width:20%; display: block; text-transform: uppercase; color:#31302B; font-weight:500; background-color: red; color: white" href="https://drapermeter.herokuapp.com/">View the app here</a>
       p.
         <span style="text-transform:uppercase;font-weight:700">Background:</span><br>
         Drapermeter is a web application that lets participants rate advertisements based on their creativity. This project is done
@@ -116,7 +116,7 @@ img(style="width:70%; display: block; margin:auto; margin-top:3%; margin-bottom:
              tspan.st0.st4.st5(x='0', y='0') DRAPER
              tspan.st1.st4.st5(x='30', y='0') METER
            path.st2(d='M43.9 50l8.6 10.6h.1c5.5-2 12.1-3.4 19.1-3.4 7.1 0 13.6 1.4 19.1 3.4h.2l8.7-10.8-55.8.2z')
-      img(style="width:100%; margin:auto; margin-top:5%",src="/assets/img/hp_gallery_tn/cityscape.png")
+      img(style="width:100%; margin-left:5%; margin-top:5%",src="/assets/img/hp_gallery_tn/cityscape.png")
       p.
         This app is setup using the MEAN stack (MongoDB, Express Js, Angular Js, Node Js) and deployed through Heroku. Other libraries used in the development
         include Bootstrap, jQuery and SVG.
@@ -128,7 +128,7 @@ img(style="width:50%; margin-left:25%; margin-top:5%",src="/assets/img/hp_galler
     .intro
       p.
         Below are the wireframes and high-fidelity mockups designed in Photoshop
-img(style="width:90%; margin-left:5%",src="/assets/img/hp_gallery_tn/msandws.png")
+      img(style="width:90%; margin-left:5%",src="/assets/img/hp_gallery_tn/msandws.png")
 .home-wrap
   .header-position
     .heading
@@ -138,11 +138,6 @@ img(style="width:90%; margin-left:5%",src="/assets/img/hp_gallery_tn/msandws.png
         <span style="font-weight:700">5.Prototyping, Evaluation and Iteration</span><br>
         For the survey page, two different layouts, one with radio buttons and the other with sliders are developed. A simple A/B test is conducted with three participation to test for optimization.
         From the A/B tests it is learned that the layout with sliders has significant difference in ease of use and the time taken to complete the survey.
-    img(style="width:70%;",src="/assets/img/hp_gallery_tn/usabilitytest.png")
-.home-wrap
-  .header-position
-    .heading
-  section.about
-    .intro
+      img(style="width:70%;",src="/assets/img/hp_gallery_tn/usabilitytest.png")
       p.
         Based on these results, Layout B (sliders) was used in the final survey application.
