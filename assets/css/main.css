@@ -1170,4 +1170,5 @@ p {
   border-color: #ed654a;
   font-size: 15px;
   z-index: -1;
-  color: #000000; }
+  color: #000000;
+  cursor: pointer; }
