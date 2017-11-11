@@ -412,15 +412,50 @@ template {
       justify-content-position: fixed;
       justify-content-display: flex;
       justify-content-flex-direction: column;
-      justify-content-align-items: center; }
+      justify-content-align-items: center;
+    position: relative;
+    z-index: 1; }
 
 .logo {
-  width: 100%;
-  height: 170px;
+  width: 300px;
   repeat: no-repeat;
   position: left;
   margin: 15px;
-  padding-bottom: 15px; }
+  padding-bottom: 15px;
+  text-align: center; }
+
+ul {
+  width: 100%;
+  text-align: center;
+  padding: 0; }
+
+li {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px; }
+
+.name {
+  max-width: 100%;
+  line-height: 1.5em;
+  padding-top: 15px;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1px;
+  color: #c44736;
+  text-transform: uppercase;
+  line-height: 1.2em; }
+
+.bio {
+  padding-top: 5%;
+  line-height: 1.5em;
+  font-size: 15px; }
+
+.social {
+  text-align: center; }
+
+.social a {
+  margin-left: 0px; }
 
 .text {
   font-size: 12px;
@@ -428,12 +463,6 @@ template {
   margin-left: 5%;
   color: #4f4f4d;
   max-width: 300px; }
-
-ul {
-  list-style: none;
-  padding-left: 5%;
-  padding-top: 55px;
-  padding-bottom: 5%; }
 
 a {
   text-decoration: none;
@@ -463,8 +492,10 @@ a {
     padding-bottom: 5px; }
     .logo img {
       background-size: cover; }
-  .logo #name {
-    text-align: center; }
+    .logo .name {
+      max-width: 100%;
+      line-height: 1.5em;
+      padding-top: 25px; }
   .header-position {
     position: relative;
     top: auto;
@@ -561,6 +592,9 @@ body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-left: 15%; }
+
+.about {
+  background-color: #FBFCFF; }
 
 .otherprojects {
   font-size: 14px;
@@ -952,6 +986,13 @@ p {
     text-align: left;
     margin-left: 15px; } }
 
+.about {
+  background-color: #FBFCFF;
+  padding-left: 5%; }
+
+.header-position {
+  border-right: 1px solid #B8D4EA; }
+
 .check {
   background-image: url("/assets/img/hp_gallery_tn/check-06.svg");
   background-repeat: no-repeat;
@@ -1014,7 +1055,12 @@ p {
   font-size: 15px; }
 
 #brand {
-  font-size: 30px; }
+  font-size: 25px;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1px;
+  color: #c44736;
+  text-transform: uppercase;
+  line-height: 1.2em; }
 
 #categeory {
   font-size: 18px;
