@@ -4,7 +4,7 @@ body
 
 .home-wrap
   display: flex
-  min-height: 50vh
+  min-height: 20vh
   font-family: 'Work Sans', sans-serif
 
   @media (max-width: 775px)
@@ -22,6 +22,16 @@ body
 .about
   background-color: #FBFCFF
 
+.postTitle
+  width: 100%
+  height: auto
+  margin-top: 10%
+  margin-bottom: 10%
+  font-size: 30px
+  font-weight: 600
+  font-family: 'Work Sans', sans-serif
+  color: #09d
+  line-height: 1.2em
 
 .otherprojects
   font-size: 14px
@@ -42,6 +52,7 @@ body
   border-bottom: 1px solid #b0b8bf
   padding-bottom: 8px
   margin-left: 5%
+
 .sectionscat
   margin-top: 10%
   width: 40%
@@ -53,10 +64,7 @@ body
   color: white
   padding: 8px 0 8px 5px
   margin-left: 5%
-.subnav p
-  margin-left: 5%
-.subnav h3
-  margin-left: 5%
+
 .thumbnail img
   width: 40%
   float: right
@@ -70,26 +78,21 @@ body
   position: center
   position: relative
 
-.app
-  text-align: center
-  width: 30%
-  display: block
+.about .app a
   text-transform: uppercase
-  color: #31302B
-  font-weight: 500
-  background-color: red
-  color: white
+  font-size: 12px
+  text-decoration: underline rgb(0, 0, 0)
+
+.subnav
   margin-top: 15%
-.app a
-  color: white
-  font-size: 15px
+
 .subnav h3
   color: #09d
-  font-weight: 500
+  font-weight: 400
   margin-top: 0px
   margin-bottom: 0px
-  font-size: 15px
-  line-height: 1.5em
+  font-size: 13px
+  line-height: 2em
 .subnav p
   text-transform: uppercase
   font-size: 12px
@@ -210,10 +213,9 @@ h1
   .app
     width: 60%
     margin: 0 auto
-
   .app a
     font-size: 12px
-    padding
+
   .sectionav
     margin: 0 auto
     width: 40%

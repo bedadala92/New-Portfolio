@@ -1,26 +1,17 @@
 .home-wrap
   .header-position
+    .goback.
+      <a href="http://sandeepbedadala.com">← Back to homepage</a>
     .heading
         #brand.
           Drapermeter
     .subnav
-      ul
-        li: a(href="{{site.baseurl}}/") Home
-        li: a(href="{{site.baseurl}}/resume/") Resume
-      .sectionscat.
-        Project details
-      p.
-        Title
-      h3.
-        Drapermeter
-      .sectionav.
       p.
         Category
       h3.
         Illustration<br>
         Web Development<br>
         Research
-      .sectionav.
       p.
         tools
       h3(style="margin-bottom:3%").
@@ -31,11 +22,14 @@
         Node.js<br>
         MongoDB
   section.about
-    .app
-      <a href="https://drapermeter.herokuapp.com/">View the app here</a>
+    .postTitle.
+      Gamifying the survey user experience
+    .app.
+      <a href="https://codepen.io/sanmanwidbigplan/">View app here →</a>
     .intro
+      .subHeading.
+        Background:
       p.
-        <span style="text-transform:uppercase;font-weight:700">Background:</span><br>
         Drapermeter is a web application that lets participants rate advertisements based on their creativity. This project was done
         as part of my Masters Thesis at the University of Florida. Drapermeter verifies an existing theory in Advertising Creativity known
         as the <a href="https://alicarnold.wordpress.com/cpss/">Creative Product Semantic Scale (CPSS)</a>. According to CPSS, any product or service can be deemed creative if it scores highly
@@ -46,7 +40,9 @@
         To understand the influence of creativity on the effectiveness of an advertisement and the differences between the judgement of creativity by general consumers and creative professionals is
         studied through an online survey tool that asks participants to rate award winning advertisements based on the above three scales. These results are then
         undergone some statistical analysis to see if there is a correlation between the above scales and the overall creativity of an advertisement.<br><br>
-        <span style="text-transform:uppercase;font-weight:700">Research:</span><br>
+      .subHeading.
+        Research:
+      p.
         Surveys that provide good user experience are proven to obtain better quality of data than typical surveys that fail to engage participants. To better understand
         the current trends in survey design, three popular survey applications were analyzed. Following are the major differences between each:
       img(style="width:100%",src="/assets/img/hp_gallery_tn/comparison.png")
@@ -54,7 +50,9 @@
         This survey will have 27 questions in total with 9 questions for each advertisement. Building a survey of 27 questions using any of the above three apps results
         in a long vertical navigation or 27 repeated clicks. Another important consideration is that user should see the advertisement before answering a question and none of the above
         mentioned survey platforms provide this feature. Therefore, I decided to build a custom survey application for this research that fits the needs and almost gamifies the survey experience.<br><br>
-        <span style="text-transform:uppercase;font-weight:700">UX Design process:</span><br>
+      .subHeading.
+        UX Design process:
+      p.
         Based on the research paper <a href= "http://dl.acm.org/citation.cfm?id=2639230">"Gamification of online surveys: conceptual foundations and a design process based on the MDA framework"</a>, following
         5 steps are devised for the development of an interactive survey:<br>
         1. Inspiration<br>
@@ -62,7 +60,9 @@
         3. Dynamics and Conversations<br>
         4.  Mechanics and Appearance<br>
         5. Prototyping, Evaluation and Iteration<br>
-        <span style="font-weight:700">1. Inspiration:</span><br>
+      .subHeading.
+        1. Inspiration:
+      p.
         At this stage, existing work in survey design that deviates from the mainstream in terms of UI elements and the overall user experience are studied. Here are some of them:<br>
         <a href="http://slaveryfootprint.org/">Made in a free world: Slavery Footprint Survey</a><br>
         <a href="http://www.nytimes.com/interactive/2013/12/20/sunday-review/dialect-quiz-map.html">New York Times: How Y’all, Youse and You Guys Talk</a><br>
@@ -72,7 +72,9 @@
         - Using subtle animations during transitions<br>
         - Informing the participant about background of the survey<br>
         - Usage of sliders and other interactive elements for data input<br>
-        <span style="font-weight:700">2. Aesthetics and Relationships:</span><br>
+      .subHeading.
+        2. Aesthetics and Relationships:
+      p.
         User personas are developed through interviews to better understand the goals and pain points of the survey participant.
         From the personas it is understood that millennial consumers lack the motivation to participate in a survey and this is largely due to the preconceived notion of doing surveys as a mundane task.
         Based on the insights gained from this user research, the following user flow diagram is developed
@@ -84,8 +86,9 @@
     .heading
   section.about
     .intro(style="margin-top:0px")
+      .subHeading.
+        3. Dynamics and Conversations
       p.
-        <span style="font-weight:700">3. Dynamics and Conversations</span><br>
         Dynamics are the conditions under which we want the user to complete the survey. Examples of dynamics include time i.e, a timed survey, limited characters for a response etc.,
         Choosing a dynamic depends on the goal of the project. Through Drapermeter, we are trying to see patterns in people's perception of creativity, hence the data collected through this survey should
         be numerical and ordinal. Likert Scale Questionnaires are the standard way of collecting ordinal data. Input for likert scale questionnaire can either be through radio buttons or sliders. In most of the popular
@@ -96,10 +99,11 @@ img(style="width:70%; display: block; margin:auto; margin-top:3%; margin-bottom:
     .heading
   section.about
     .intro(style="margin-top:0px")
+      .subHeading.
+        4. Mechanics and Appearance
       p.
-       <span style="font-weight:700">4. Mechanics and Appearance</span><br>
-       After finalizing the information architecture, wireframes are developed for each page and these are later used to develop high-fidelity mockups.
-       The entire visual design of this project is inspired by the iconography and color-palette of the TV show Mad Men.
+        After finalizing the information architecture, wireframes are developed for each page and these are later used to develop high-fidelity mockups.
+        The entire visual design of this project is inspired by the iconography and color-palette of the TV show Mad Men.
       svg(xmlns='http://www.w3.org/2000/svg', viewbox='0 0 143.7 81.6' style="width:70%; margin:auto ")
         style.
           .st0{fill:#B21212;} .st1{fill:#393A3A;} .st2{fill:none;stroke:#393A3A;stroke-miterlimit:10;} .st3{fill:none;} .st4{font-family:&apos;RobotoCondensed-Bold&apos;;} .st5{font-size:9px;}
@@ -134,8 +138,9 @@ img(style="width:50%; margin-left:25%; margin-top:5%",src="/assets/img/hp_galler
     .heading
   section.about
     .intro
+      .subHeading.
+        5.Prototyping, Evaluation and Iteration
       p.
-        <span style="font-weight:700">5.Prototyping, Evaluation and Iteration</span><br>
         For the survey page, two different layouts, one with radio buttons and the other with sliders are developed. A simple A/B test is conducted with three participation to test for optimization.
         From the A/B tests it is learned that the layout with sliders has significant difference in ease of use and the time taken to complete the survey.
       img(style="width:70%;",src="/assets/img/hp_gallery_tn/usabilitytest.png")

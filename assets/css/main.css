@@ -432,7 +432,8 @@ ul {
 li {
   display: inline-block;
   margin-right: 10px;
-  margin-left: 10px; }
+  margin-left: 10px;
+  color: #09d; }
 
 .name {
   max-width: 100%;
@@ -440,10 +441,6 @@ li {
   padding-top: 15px;
   font-size: 25px;
   font-weight: 500;
-  font-family: 'Oswald', sans-serif;
-  letter-spacing: 1px;
-  color: #c44736;
-  text-transform: uppercase;
   line-height: 1.2em; }
 
 .bio {
@@ -452,7 +449,8 @@ li {
   font-size: 15px; }
 
 .social {
-  text-align: center; }
+  text-align: center;
+  margin-top: 15px; }
 
 .social a {
   margin-left: 0px; }
@@ -464,11 +462,13 @@ li {
   color: #4f4f4d;
   max-width: 300px; }
 
-a {
+li a {
   text-decoration: none;
   line-height: 1.5;
   color: #4f4f4d;
-  font-size: 12px; }
+  font-size: 12px;
+  text-transform: uppercase;
+  text-decoration: underline black; }
 
 @media (max-width: 375px) {
   .social {
@@ -576,7 +576,7 @@ body {
 .home-wrap {
   display: -ms-flexbox;
   display: flex;
-  min-height: 50vh;
+  min-height: 20vh;
   font-family: 'Work Sans', sans-serif; }
   @media (max-width: 775px) {
     .home-wrap {
@@ -595,6 +595,17 @@ body {
 
 .about {
   background-color: #FBFCFF; }
+
+.postTitle {
+  width: 100%;
+  height: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Work Sans', sans-serif;
+  color: #09d;
+  line-height: 1.2em; }
 
 .otherprojects {
   font-size: 14px;
@@ -627,12 +638,6 @@ body {
   padding: 8px 0 8px 5px;
   margin-left: 5%; }
 
-.subnav p {
-  margin-left: 5%; }
-
-.subnav h3 {
-  margin-left: 5%; }
-
 .thumbnail img {
   width: 40%;
   float: right;
@@ -646,28 +651,21 @@ body {
   position: center;
   position: relative; }
 
-.app {
-  text-align: center;
-  width: 30%;
-  display: block;
+.about .app a {
   text-transform: uppercase;
-  color: #31302B;
-  font-weight: 500;
-  background-color: red;
-  color: white;
-  margin-top: 15%; }
+  font-size: 12px;
+  text-decoration: underline black; }
 
-.app a {
-  color: white;
-  font-size: 15px; }
+.subnav {
+  margin-top: 15%; }
 
 .subnav h3 {
   color: #09d;
-  font-weight: 500;
+  font-weight: 400;
   margin-top: 0px;
   margin-bottom: 0px;
-  font-size: 15px;
-  line-height: 1.5em; }
+  font-size: 13px;
+  line-height: 2em; }
 
 .subnav p {
   text-transform: uppercase;
@@ -905,14 +903,8 @@ h1 {
   text-align: right;
   font-size: 15px;
   line-height: 1.5em;
-  display: inline-block; }
-
-.heading {
-  width: 300px;
-  height: auto;
-  repeat: no-repeat;
-  position: left;
-  margin: 15px; }
+  display: inline-block;
+  float: left; }
 
 p {
   font-size: 22px; }
@@ -954,8 +946,7 @@ p {
   width: 300px;
   height: auto;
   repeat: no-repeat;
-  position: left;
-  margin: 15px; }
+  position: left; }
 
 p {
   font-size: 22px; }
@@ -988,10 +979,24 @@ p {
 
 .about {
   background-color: #FBFCFF;
-  padding-left: 5%; }
+  padding-left: 5%;
+  border-left: 1px solid #B8D4EA; }
 
 .header-position {
-  border-right: 1px solid #B8D4EA; }
+  text-align: center; }
+
+.goback {
+  margin: 15%; }
+
+.goback a {
+  text-decoration: underline black;
+  text-transform: uppercase; }
+
+.heading {
+  width: 300px;
+  height: auto;
+  repeat: no-repeat;
+  position: left; }
 
 .check {
   background-image: url("/assets/img/hp_gallery_tn/check-06.svg");
@@ -1014,7 +1019,6 @@ p {
   padding-right: 5px; }
 
 .intro {
-  margin-top: 80px;
   font-size: 18px;
   line-height: 2em;
   padding-right: 10%; }
@@ -1055,12 +1059,13 @@ p {
   font-size: 15px; }
 
 #brand {
-  font-size: 25px;
-  font-family: 'Oswald', sans-serif;
-  letter-spacing: 1px;
-  color: #c44736;
-  text-transform: uppercase;
-  line-height: 1.2em; }
+  font-size: 18px;
+  line-height: 1.2em;
+  font-weight: 500; }
+
+.subHeading {
+  font-weight: 500;
+  margin-top: 5%; }
 
 #categeory {
   font-size: 18px;
