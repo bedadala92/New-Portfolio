@@ -505,6 +505,8 @@ body, html {
   font-size: 18px;
   font-family: garamond;
   font-style: italic; }
+  .newheader #terafm-shadow {
+    display: none; }
 
 body {
   font-family: 'Work Sans', sans-serif;
