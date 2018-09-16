@@ -1,12 +1,15 @@
 head
-   script(src='http://www.visineat.com/js/vn-1.7.js')
-   script(src='http://www.visineat.com/js/vn/animation-1.js')
    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js')
-   script(src='/assets/js/alligator.js')
-   script(src='/assets/js/main.js')
-body(onload='vn.run(my_program)', style='margin:0px')
+body
 section.about
   .flex
+    a(href='{{site.baseurl}}/indiana/')
+      .col-1
+        img(style="width:300px" src="/assets/img/hp_gallery_tn/hp_tn_12_indiana.png")
+        #toggle
+        #cell INDIANA UNIVERSITY</br>
+          span(style='font-size:12px').
+            UI/UX Research + Design + Development
     a(href='{{site.baseurl}}/claimfound/')
       .col-1
         img(style="width:300px" src="/assets/img/hp_gallery_tn/hp_tn_11_claim-03.png")
@@ -14,13 +17,13 @@ section.about
         #cell CLAIMFOUND</br>
           span(style='font-size:12px').
             UI/UX Design & Graphic Design
-    a(href='{{site.baseurl}}/byjus/')
+    a(href='{{site.baseurl}}/logos/')
       .col-1
-        img(src="/assets/img/hp_gallery_tn/hp_tn_09_byjus.gif")
+        img(style="width:300px" src="/assets/img/hp_gallery_tn/hp_tn_03_logos.gif")
         #toggle
-        #cell BYJU'S CLASSES</br>
+        #cell LOGOS</br>
           span(style='font-size:12px').
-            UI/UX Design
+            Graphic Design
     a(href='{{site.baseurl}}/drapermeter/')
       .col-1
         svg(xmlns='http://www.w3.org/2000/svg', viewbox='0 0 143.7 81.6')
@@ -44,13 +47,6 @@ section.about
           #cell DRAPERMETER</br>
             span(style='font-size:12px').
               Web App Design & Development
-    a(href='{{site.baseurl}}/dotedu/')
-      .col-1
-        img(style="width:300px" src="/assets/img/hp_gallery_tn/dotedurec.gif")
-        #toggle
-        #cell DOTEDU</br>
-          span(style='font-size:12px').
-            Mobile App Design
     a(href='{{site.baseurl}}/graphikala/')
       .col-1
         img(src="/assets/img/hp_gallery_tn/hp_tn_02_graphikala.png")
@@ -65,10 +61,3 @@ section.about
         #cell BHARTI AXA</br>
           span(style='font-size:12px').
             UI/UX Design
-  <p style="font-size:18px; font-weight:500; line-height: 1.5em; margin-left:16%; ">Other projects</p>
-  <a class="otherprojects" href="{{site.baseurl}}/logos/">Logos</a>|<span style="margin-left:1%; text-transform: uppercase; color:#F29530">Graphic Design / Illustration</span><br><br>
-  <a class="otherprojects" href="{{site.baseurl}}/albert/">Albert In City</a>|<span style="margin-left:1%; text-transform: uppercase; color:#ff0000">Web Interactive</span><br><br>
-  <a class="otherprojects" href="{{site.baseurl}}/typography/">Indian Typography Project</a>|<span style="margin-left:1%; text-transform: uppercase; color:#ff0000">Web Interactive</span><br><br>
-  <a class="otherprojects" href="{{site.baseurl}}/benhill/">Florida Field</a>|<span style="margin-left:1%; text-transform: uppercase; color:#008000">3D Modeling</span><br><br>
-  <a class="otherprojects" href="{{site.baseurl}}/kayla/">Kayla's Story</a>|<span style="margin-left:1%; text-transform: uppercase; color:#0000ff">Photography / web interactive</span><br><br>
-  <a class="otherprojects" href="https://www.wuft.org/news/2016/03/07/town-of-tioga-hosts-annual-winter-fine-arts-fair/">Tioga Fine Arts Fair</a>|<span style="margin-left:1%; text-transform: uppercase; color:#0000ff">Photography</span><br><br><br>
