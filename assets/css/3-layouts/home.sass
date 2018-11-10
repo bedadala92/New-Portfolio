@@ -11,16 +11,24 @@ body
     display: block
 
 .home-sections
-  // flex:1
   .flex
     display: flex
     flex-direction: rows
     justify-content: left
     flex-wrap: wrap
-    margin-left: 15%
+
+.homepage-name
+  padding-top: 5%
+  font-size: 30px
+  font-weight: 600
+  font-family: 'Work Sans', sans-serif
+
+.homepage-bio
+    line-height: 2rem
 
 .about
   background-color: #FBFCFF
+  padding-bottom: 5%
 
 .postTitle
   width: 100%
@@ -98,6 +106,12 @@ body
   font-size: 12px
 
 @media (max-width: 640px)
+  .postTitle
+    text-align: center
+
+  .about
+    padding-left: 0%
+
   .home-sections .flex
     display: flex
     align-items: center
