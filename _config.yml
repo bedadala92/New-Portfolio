@@ -2,3 +2,5 @@ name: Sandeep Bedadala
 markdown: kramdown
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 permalink: /blog/:year/:month/:day/:title.html
+
+theme: jekyll-theme-minimal
